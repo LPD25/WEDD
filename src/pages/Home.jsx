@@ -1,15 +1,20 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Hero from '../components/Hero'
-import '../assets/css/index.css'
+import React from "react";
+import Subtitle from "../components/Subtitle";
+import Image from "../components/Image";
+// import Title from "../components/Title";
+// import Input from "../components/Input";
+// import Bouton from "../components/Bouton";
+import logo from "../components/logo.png";
 
 function Home() {
 
   return (
     <>
-      <Navbar /> 
-      <Hero /> 
-      <Footer />
+ {/* <Input  placeholder = "jane@example.com" type = "text" width="w-96" /> */}
+ {/* <Bouton width="w-96" bg="bg-[#016CEC]" color="text-[#fff]" fontSize="text-[18px]"/>  */}
+ {/* <Title color="text-[#008000]" fontSize='text-[25px]' fontWeight="font-bold" >Notre Mariage</Title> */}
+ {/* <Subtitle fontSize="text-[15px]" fontWeight="font-medium" color="text-[#008000]">Notre Mariage</Subtitle> */}
+ <Image src={logo}alt="image" width="w-96" height="h-96"/>
     </>
   )
 }
