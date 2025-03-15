@@ -5,7 +5,7 @@ function Image(props) {
     <img 
       src={props.src}
       alt={props.alt}
-      className={`w-${props.width} h-${props.height} object-cover`}
+      className={`${props.className}`}
     />
   )
 }
