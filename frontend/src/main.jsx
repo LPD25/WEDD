@@ -4,12 +4,17 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import './assets/css/index.css'
 import Home from './pages/Home.jsx'
 import Connexion from './pages/Connexion.jsx'
+import Inscription from './pages/Inscription.jsx'
+import PageNotFound from './pages/PageNotFound.jsx'
 
 const router = createBrowserRouter (
   createRoutesFromElements (
       <>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Connexion />} />
+        <Route path="/register" element={<Inscription />} />
+        <Route path="*" element={<PageNotFound/>} />
+        
       </>
   )
 )

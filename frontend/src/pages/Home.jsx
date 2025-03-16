@@ -1,4 +1,5 @@
 import React from "react";
+// import Inscription from "./Inscription";
 // import Subtitle from "../components/Subtitle";
 // import Image from "../components/Image";
 // import Title from "../components/Title";
@@ -17,7 +18,6 @@ return (
  {/* <Subtitle fontSize="text-[15px]" fontWeight="font-medium" color="text-[#008000]">Notre Mariage</Subtitle> */}
  {/* <Image src={logo}alt="image" width="w-96" height="h-96"/> */}
 
-<Connexion/>
     </>
   )
 }
